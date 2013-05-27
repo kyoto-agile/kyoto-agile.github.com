@@ -1,0 +1,313 @@
+
+<!DOCTYPE html>
+<!--[if IEMobile 7 ]><html class="no-js iem7"><![endif]-->
+<!--[if lt IE 9]><html class="no-js lte-ie8"><![endif]-->
+<!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <title>#京アジャ 第22回 ペーパープロトをやってみよう！ - 京アジャ Retrospectives</title>
+  <meta name="author" content="京都アジャイル勉強会">
+  <link rel="author" href="humans.txt">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+  
+    
+  
+  <meta name="description" content="今回の #京アジャは、今まで意外とやって来なかった「ペーパープロトタイピング」を取り上げてみました。
+一口に「ペーパープロトタイピング」といってもいろいろあると思うのですが、一時間半でできるように、できるだけコンパクトにしてみました。 参加者は主催含めて、15人。同日昼間に行われていたAgile &hellip;">
+  
+  <!-- http://t.co/dKP3o1e -->
+  <meta name="HandheldFriendly" content="True">
+  <meta name="MobileOptimized" content="320">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  
+  <link rel="canonical" href="http://kyoto-agile.github.com/blog/2013/05/28/paper-prototyping/">
+  <link href="/favicon.png" rel="icon">
+  <link href='http://fonts.googleapis.com/css?family=Cantarell' rel='stylesheet' type='text/css'>
+  <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
+  <link href="/atom.xml" rel="alternate" title="京アジャ Retrospectives" type="application/atom+xml">
+  <meta name="og:type" content="website" />
+  <meta name="og:site_name" content="京アジャ Retrospectives" />
+  <meta name="og:title" content="#京アジャ 第22回 ペーパープロトをやってみよう！" />
+  <meta name="og:description" content="今回の #京アジャは、今まで意外とやって来なかった「ペーパープロトタイピング」を取り上げてみました。
+一口に「ペーパープロトタイピング」といってもいろいろあると思うのですが、一時間半でできるように、できるだけコンパクトにしてみました。 参加者は主催含めて、15人。同日昼間に行われていたAgile &hellip;" />
+  <meta name="og:url" content="http://kyoto-agile.github.com/blog/2013/05/28/paper-prototyping/"/>
+  <meta name="url" content="http://kyoto-agile.github.com/blog/2013/05/28/paper-prototyping/">
+  
+  <meta name="subject" content=""/>
+  <meta name="category" content=""/>
+  
+  <meta name="distribution" content="global">
+  <!--Fonts from Google"s Web font directory at http://google.com/webfonts -->
+<link href="http://fonts.googleapis.com/css?family=PT+Serif:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
+<link href="http://fonts.googleapis.com/css?family=PT+Sans:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
+
+  
+
+</head>
+
+<body   >
+  <nav role="navigation"><div class="navbar">
+  <div class="navbar-inner">
+    <a class="brand" href="/">京アジャ Retrospectives</a>
+    <ul class="nav">
+      <li><a href="/">Home</a></li>
+      <li><a href="/blog/archives">Archives</a></li>
+    </ul>
+    <ul class="nav" data-subscription="rss">
+      <li><a href="/atom.xml" rel="subscribe-rss" title="subscribe via RSS">RSS</a></li>
+      
+    </ul>
+      
+    <form class="navbar-form" action="http://google.com/search" method="get">
+      <fieldset role="search">
+        <input type="hidden" name="q" value="site:kyoto-agile.github.com" />
+        <input class="span2" type="text" name="q" results="0" placeholder="Search"/>
+      </fieldset>
+    </form>
+      
+    
+  </div>
+</div>
+</nav>
+  <div class="wrapper_single">
+    <div class="container">
+      <article class="span8 offset2" role="article">
+        <div class="article-format">
+
+  <header>
+    
+      <h1 class="entry-title">#京アジャ 第22回 ペーパープロトをやってみよう！</h1>
+    
+    
+      <p class="meta">
+        
+  
+
+
+  
+    <span class="byline author vcard">by <span class="fn">京都アジャイル勉強会</span></span>
+  
+
+ - 
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2013-05-28T00:15:00+09:00" pubdate data-updated="true">May 28<span>th</span>, 2013</time> - 
+        
+
+
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>今回の #京アジャは、今まで意外とやって来なかった「ペーパープロトタイピング」を取り上げてみました。
+一口に「ペーパープロトタイピング」といってもいろいろあると思うのですが、一時間半でできるように、できるだけコンパクトにしてみました。</p>
+
+<p>参加者は主催含めて、15人。同日昼間に行われていたAgile Japanの参加者というか発表者も来ていたりして、いつも以上に盛り上がりました、</p>
+
+<!-- more -->
+
+
+<h1>概要</h1>
+
+<p>ペーパープロトタイピング、ということで何かお題を考えないといけなかったのですが、今回は前回やった「ストーリーマッピング」のお題をそのまま流用して、それをベースにプロトタイピングしてみる、という形にしてみました。</p>
+
+<p>具体的には、前回の最終成果物であるファーストリリースのストーリー集を、実際にテストできるようなペーパープロトを作成し、それを評価しよう、という流れです。</p>
+
+<p>タイムテーブルはざっくりとこんな感じ。</p>
+
+<ul>
+<li>19:15 〜 19:30 ：チーム分け・課題説明</li>
+<li>19:30 〜 20:00 ：WS1 プロトタイプ作成</li>
+<li>20:00 〜 20:20 ：WS2 ユーザー評価！</li>
+<li>20:20 〜 20:40 ：WS3 評価を受けてブラッシュアップ</li>
+<li>20:40 〜 20:50 ：WS4 もういちどユーザー評価！</li>
+</ul>
+
+
+<p>かなり忙しかったのは自覚していますが、やっぱり作って終わりではなく「作る→評価→ブラッシュアップ→評価」という流れを作りたかった、というのがありましたので。</p>
+
+<p><img class="left" src="/images/kyoaja_prototyping.jpg" width="350"></p>
+
+<h2>KPT</h2>
+
+<p>今回はPが多いです。</p>
+
+<h3>K</h3>
+
+<ul>
+<li>2時間以内でちゃんと入った。一応評価を二回まわす、というところまでもっていけた。</li>
+</ul>
+
+
+<h3>P</h3>
+
+<ul>
+<li>やっぱり評価までするなら、簡単なシナリオ検討をしてからすべきだったと思う。評価をやったにはやったけれど、個人的にはもやっとしたし、もやっとしてる人も結構いたように思う。ちゃんとストーリーとして芯を通して初めて見えてくる部分がありそうに感じました。</li>
+<li>ユーザビリティに関するワークをするときには「誰のために作っているのか」を意識しておくべき。ペルソナ、とまではいかなくても「こういう人につくる」というイメージをちゃんと出しておいたほうがよかったかも。</li>
+</ul>
+
+
+<h3>T</h3>
+
+<ul>
+<li>シナリオやユーザー像はできるだけ固めるようにしておきたい。長時間撮れるならLeanCanvasなどのビジネス設計から始める題材と絡めたほうが流れは自然かもしれない。</li>
+<li>時間が取れるなら、一度はドッグフーディングしてから出したい！</li>
+</ul>
+
+</div>
+
+
+  <footer>
+    <p class="meta">
+      
+  
+
+
+  
+    <span class="byline author vcard">by <span class="fn">京都アジャイル勉強会</span></span>
+  
+
+
+      
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2013-05-28T00:15:00+09:00" pubdate data-updated="true">May 28<span>th</span>, 2013</time>
+      
+
+
+    </p>
+    
+      <div class="sharing">
+  <a href="http://b.hatena.ne.jp/entry/http://kyoto-agile.github.com/blog/2013/05/28/paper-prototyping/" class="hatena-bookmark-button" data-hatena-bookmark-layout="standard" title="このエントリーをはてなブックマークに追加"><img src="http://b.st-hatena.com/images/entry-button/button-only.gif" alt="このエントリーをはてなブックマークに追加" width="20" height="20" style="border: none;" /></a><script type="text/javascript" src="http://b.st-hatena.com/js/bookmark_button.js" charset="utf-8" async="async"></script>
+
+  
+  <a href="http://twitter.com/share" class="twitter-share-button" data-url="http://kyoto-agile.github.com/blog/2013/05/28/paper-prototyping/" data-via="" data-counturl="http://kyoto-agile.github.com/blog/2013/05/28/paper-prototyping/" >Tweet</a>
+  
+  
+  
+</div>
+
+    
+    
+      <a class="pull-left" href="/blog/2013/05/11/storymapping/" title="Previous Post: ユーザーストーリーマッピングワークショップ">&laquo; ユーザーストーリーマッピングワークショップ</a>
+    
+    
+  </footer>
+
+</div>
+
+        
+      </article>
+    </div>
+  </div>
+  <div id="footer-widgets">
+  <div class="container">
+    <div class="row">
+  <div class="span3">
+    <h2>recent posts</h2>
+    <ul class="recent_posts">
+      
+        <li>
+          <a href="/blog/2013/05/28/paper-prototyping/">#京アジャ 第22回 ペーパープロトをやってみよう！</a>
+        </li>
+      
+        <li>
+          <a href="/blog/2013/05/11/storymapping/">ユーザーストーリーマッピングワークショップ</a>
+        </li>
+      
+        <li>
+          <a href="/blog/2013/04/27/xpfes2013/">#京アジャ 春の特別出張編 @ XP祭り関西2013</a>
+        </li>
+      
+        <li>
+          <a href="/blog/2013/04/27/20th-lt/">第20回LT大会</a>
+        </li>
+      
+        <li>
+          <a href="/blog/2013/04/12/laen-canvas-workshop/">第19回 Lean Canvasワークショップ</a>
+        </li>
+      
+    </ul>
+    <h2><a href="/blog/archives">archives</a></h2>
+  </div>
+  <div class="span3">
+    
+
+  </div>
+  <div class="span4">
+    
+
+  </div>
+</div>
+
+  </div>
+</div>
+<footer class="footer">
+  <div class="container">
+    <p class="pull-left">
+  <a href="/">京アジャ Retrospectives</a>
+  - Copyright &copy; 2013 - 京都アジャイル勉強会
+</p>
+<p class="pull-right">
+  <span>Powered by <a href="http://octopress.org/">Octopress</a>.</span>
+  
+    <span>Designed by <a href="http://www.AdrianArtiles.com">Adrian Artiles</a>.</span>
+  
+</p>
+
+  </div>
+</footer>
+
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js" type="text/javascript"></script>
+<script>window.jQuery || document.write('<script src="/javascripts/libs/jquery-1.7.2.min.js" type="text/javascript"><\/script>')</script>
+<script src="/javascripts/libs/bootstrap.min.js" type="text/javascript"></script>
+<script src="/javascripts/jquery.tweet.js" type="text/javascript"></script>
+<script src="/javascripts/jquery.instagram.js" type="text/javascript"></script>
+<script src="/javascripts/libs/jquery.masonry.min.js" type="text/javascript"></script>
+<script src="/javascripts/custom.js" type="text/javascript"></script>
+
+
+
+
+
+
+
+
+  <script type="text/javascript">
+    (function(){
+      var twitterWidgets = document.createElement('script');
+      twitterWidgets.type = 'text/javascript';
+      twitterWidgets.async = true;
+      twitterWidgets.src = 'http://platform.twitter.com/widgets.js';
+      document.getElementsByTagName('head')[0].appendChild(twitterWidgets);
+    })();
+  </script>
+
+
+
+
+</body>
+</html>
