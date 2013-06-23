@@ -4,7 +4,7 @@
   <title><![CDATA[京アジャ Retrospectives]]></title>
   <link href="http://kyoto-agile.github.com/atom.xml" rel="self"/>
   <link href="http://kyoto-agile.github.com/"/>
-  <updated>2013-06-23T14:23:40+09:00</updated>
+  <updated>2013-06-23T14:46:58+09:00</updated>
   <id>http://kyoto-agile.github.com/</id>
   <author>
     <name><![CDATA[京都アジャイル勉強会]]></name>
@@ -12,60 +12,6 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
-  
-  <entry>
-    <title type="html"><![CDATA[#京アジャ 第23回 Lean Diagram]]></title>
-    <link href="http://kyoto-agile.github.com/blog/2013/06/22/lean-diagram/"/>
-    <updated>2013-06-22T11:44:00+09:00</updated>
-    <id>http://kyoto-agile.github.com/blog/2013/06/22/lean-diagram</id>
-    <content type="html"><![CDATA[<p><a href="http://connpass.com/event/2457/">京都アジャイル勉強会 #京アジャ 第23回 - connpass</a></p>
-
-<p><img src="https://connpass-tokyo.s3.amazonaws.com/thumbs/e1/05/e105bc01ef2e44f8ad65e8e379d93b9b.png" alt="" /></p>
-
-<p>京アジャ 第23回として<a href="http://leandiagram.com/">Lean Diagram</a>のワークショップを行なってみました。</p>
-
-<p>Lean Startupシリーズはこれまで何回か行なってきたわけですが、今回は結構最近の手法として紹介されてみるLean Diagramを、どんなものか確かめるためにみんなで書いてみました。</p>
-
-<!-- more -->
-
-
-<h2>Lean Diagramとは？</h2>
-
-<p>冒頭に掲げた図で、「アーリーアダプター」を見つけることにフォーカスした図となっています。Lean Canvasのようにビジネスモデルキャンバスを意識した構造とはなっていません。</p>
-
-<p>図の構造は、左側が上から「問題」・「代替手段」・「アーリーアダプター」となっており、</p>
-
-<ol>
-<li>どんな問題があって</li>
-<li>それに対するどんな解決手段が考えられ</li>
-<li>実際にその代替手段を使っているアーリーアダプター（候補）はどんな人か</li>
-</ol>
-
-
-<p>という感じでまず顧客側を見ています。</p>
-
-<p>対して右側は上から「ソリューション」・「提案」があり</p>
-
-<ol>
-<li>問題の解決方法</li>
-<li>解決方法の具体化</li>
-</ol>
-
-
-<p>を提示しています。</p>
-
-<p>さらに、図を横通しで見て</p>
-
-<ol>
-<li>提示したソリューションで本当に問題を解決できるのか</li>
-<li>ソリューションにかかるコストを乗り越えて代替手段から乗り換えてくれるのか</li>
-<li>製品の具体的な提供・提示方法はアーリーアダプターにマッチしているのか</li>
-</ol>
-
-
-<p>を見るわけですね。</p>
-]]></content>
-  </entry>
   
   <entry>
     <title type="html"><![CDATA[#京アジャ 第22回 ペーパープロトをやってみよう！]]></title>
